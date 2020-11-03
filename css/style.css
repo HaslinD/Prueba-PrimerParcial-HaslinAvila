@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shojumaru&family=Stylish&display=swap%27);
+
+/* Para cuando tengas los colores */
+:root{
+	
+}
+
+body{
+	color: #000;
+	background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+	
+}
+
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+	background-color: #fff !important;
+}
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-azul-oscuro);
+}
+
+.header-area.sticky .navbar-light .navbar-brand {
+	color: var(--color-negro);
+}
+
+#hero{
+	background-image: url("../img/two_sides_by_ryky_dasdpdk-pre.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%vh;
+	color: white;
+	padding-top: 3%;
+}
+
+.btn-primary {
+	text-transform: uppercase;
+	background-color: var(--color-principal);
+	padding: 1% 5%;
+	border: 0;
+	font-weight: 700;
+	box-shadow: 0px 0px 10px 0px rgba(247, 81, 96, 0.50);
+	background-color: var(--color-boton-hover);
+}
+
+.btn-primary:hover{
+	background-color: var(--color-boton-hover);
+}
+
+.section{	
+	padding: 8% 0 5%;
+}
+
+.titulo{
+	font-size: 2em;
+	font-weight: 700;
+	margin-bottom: 3%;
+}
+
+#hero {
+	text-align: center;
+	font-size: 15px;
+}
+
+#about {
+	text-align: center;
+	font-size: 15px;
+}
+
+#features {
+	text-align: center;
+	font-size: 15px;
+}
+
+#shop {
+	text-align: center;
+	font-size: 15px;
+}
+
+#contact {
+	text-align: center;
+	font-size: 15px;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-item.active{
+	
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
