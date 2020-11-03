@@ -32,6 +32,16 @@ h1 {
 	text-decoration: underline;
 }
 
+#hero .list-inline-item{
+	border: solid;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+#hero li {
+	padding: 5px 10px;
+}
+
 h2,h3,h4,h5,h6{
 	font-family: 'Nanum Pen Script';
 	font-weight: 400;
