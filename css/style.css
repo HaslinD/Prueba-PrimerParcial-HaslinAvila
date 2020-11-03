@@ -1,19 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shojumaru&family=Stylish&display=swap%27);
-
-/* Para cuando tengas los colores */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shojumaru&family=Stylish&display=swap');
 :root{
+	
+    --color-Narajan: #ffac2c;
+    --color-Negro: #29373c;
+    --color-Fondo-gris: #f9fbf3;
+    --color-Fondo-footer: #ED8F03;
+    --color-texto-general: #999;
 	
 }
 
 body{
-	color: #000;
-	background-color: #fff;
+	font-family: 'Stylish';
+	font-size: 14px;
+	color: var(--color-general);
 }
 
-h1,h2,h3,h4,h5,h6{
-	
+h1 {
+	font-family: 'Shojumaru';
+	font-size: 3em;
+	margin: 12% 0 0;
+	color: var(--color-Narajan);
 }
 
+#hero p {
+	font-family: 'Nanum Pen Script';
+	font-size: 1.5em;
+}
+
+#hero span{
+	color: var(--color-Narajan);
+	text-decoration: underline;
+}
+
+h2,h3,h4,h5,h6{
+	font-family: 'Nanum Pen Script';
+	font-weight: 400;
+}
+
+header a.navbar-brand{
+	font-family: 'Shojumaru';
+	font-size: 10px;
+}
+
+header {
+	font-family: 'Nanum Pen Script';
+}
+
+#ato {
+	text-align: center;
+}
+
+#ato img{
+	height: 40%;
+	width: 40%;
+	margin-bottom: 7%;
+}
+
+#ato p{
+	color: #939393;
+}
+
+#faq {
+	background-color: var(--color-fondo-gris);
+}
 
 .header-area.sticky {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -35,7 +84,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #hero{
-	background-image: url("../img/two_sides_by_ryky_dasdpdk-pre.jpg");
+	background-image: url("../img/bg-hero.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -115,3 +164,4 @@ h1,h2,h3,h4,h5,h6{
     background-color: #fb397d;
     border: 0 !important;
 }
+
